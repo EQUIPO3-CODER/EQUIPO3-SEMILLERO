@@ -1,4 +1,10 @@
 @import "header";
 @import "footer";
+@import "section";
 
+main {
+    width:90%;
+    display: flex;
+    justify-content: center;
+}
 // Le pertenece al index

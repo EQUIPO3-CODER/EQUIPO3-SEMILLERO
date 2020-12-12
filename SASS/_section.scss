@@ -1,0 +1,49 @@
+%content-header {
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2F2F2F;
+}
+
+%content-subheader {
+    font-family: Helvetica Neue;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #2F2F2F;
+}
+
+.section__container {
+    width: 100%;
+    font-size: 1.2rem;
+
+    h3 {
+        @extend %content-subheader;
+    }
+
+    h2 {
+        @extend %content-header;
+}
+
+.section__container-imagen {
+    padding-left: 10%;
+    padding-right: 32px;
+}
+
+.section__container-contenido {
+    padding-left: 32px;
+    padding-right: 10%;
+
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2F2F2F;
+    }
+}
+
+.section__container-carousel {
+
+}
