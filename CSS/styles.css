@@ -8,15 +8,15 @@ html {
 .header__container {
   padding: 0rem 1.5rem; }
 
-.header__menuContainer {
+.header__container-menuContainer {
   width: 44%; }
 
-.header__menuContainer-menu {
+.header__container-menuContainer-menu {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between; }
-  .header__menuContainer-menu li a {
+  .header__container-menuContainer-menu li a {
     font-size: 1.5rem; }
 
 .dropdown-menu--outLeft {
