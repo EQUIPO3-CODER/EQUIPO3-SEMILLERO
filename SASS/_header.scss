@@ -41,6 +41,10 @@ html{
     }
 }
 
+.header__container-menuContainer-li:hover > .header__container-menuContainer-li-dropMenu{
+    display: block;
+}
+
 .dropdown-menu--outLeft{
     left: auto;
 }
