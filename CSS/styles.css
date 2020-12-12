@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  font-size: 10px; }
+
+.header__container {
+  padding: 0rem 1.5rem; }
+
+.header__menuContainer {
+  width: 44%; }
+
+.header__menuContainer-menu {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  .header__menuContainer-menu li a {
+    font-size: 1.5rem; }
+
+.dropdown-menu--outLeft {
+  left: auto; }
