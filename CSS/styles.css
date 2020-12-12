@@ -7,13 +7,24 @@ html {
   font-size: 10px;
 }
 
+#header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+  #header nav {
+    flex-basis: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around; }
+
 .header__container {
   padding: 0rem 1.5rem;
 }
 
 .header__container-menuContainer {
-  width: 44%;
-}
+
+  width: 60%; }
+
 
 .header__container-menuContainer-menu {
   width: 100%;
